@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background: #0D3B66;    
+}
+.name {
+    width: 100%;
+    height: 300px;
+    background: #FF8B74;
+    transform: skewy(-5deg);
+}
+.name .img {
+    position: absolute;
+    top: 18%;
+    left: 58%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewy(5deg);
+    overflow: hidden;
+
+}
+.name .img img {
+    width: 184px;
+    height: 184px;
+}
+
+
+
+
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+
+.name .content .p-1 {
+    color: #030303;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewy(5deg);
+    margin-bottom: 0;
+}
+
+.name .content .p-2 {
+    color: #030303;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    transform: skewy(5deg);
+    margin-top: 0;
+    margin: 0;
+}
+
+.info {
+    width: 90%;
+    height: auto ;
+    background: #FAF0CA;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;  
+}
+
+
+.info .tituloSeccion {
+    color: #030303;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px #FF99D3 dashed;
+}
+
+.info .tituloInfo {
+    color: #030303;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; /*permite alinearme uno detras del otro*/
+    margin-right: 20px;
+}
+
+.info .infonNombre {
+    color: #2c3691;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
+/* como es una etiqueta de html no tengo que ponerle punto a span */
+.info span { 
+    display: inline-block; /*permite alinearme uno detras de otro y se puede poner tamaños distintos*/
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #79B8FF;
+    border-radius: 5px;
+    color: #000000;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bolder;
+}
+
+
+.img2 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;    
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.info li {
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    color: #030303;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+nav{
+    background: #0D3B66;
+}
+
+.navEnlace {
+    display: inline-flex;
+    background: #FF8B74;
+    padding: 15px 32px 15px 32px; 
+    width: 20%;
+    height: 20px;
+    color: #030303;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center
+
+}
+
+.navEnlace:hover {
+    background: #FF99D3;
+}
